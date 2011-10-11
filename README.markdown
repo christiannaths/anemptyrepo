@@ -85,3 +85,49 @@ in a new Sublime Text window (that's what the <code>-n</code> flag does).
 Make a note of the <code> . </code> in that second line, that's telling
 the <code>subl</code> command which directory to open, the <code> . </code> means "the current directory"
 
+
+Now edit your code how every you see fit. Add files if you need to. Try adding
+a new file and call it whatever you like. Put something in it as a placeholder text.
+
+After you've done that, type this into terminal:
+
+    git status
+
+This will list all of the files which have changed on your current branch.
+You should see that new file you created in that list, something like:
+
+    # Untracked files:
+    #   (use "git add <file>..." to include in what will be committed)
+    #
+    # a_new_file.txt
+    nothing added to commit but untracked files present (use "git add" to track)
+
+The next step is to add these changed files to something called a "staging area"
+
+## Committing Changes
+
+Once you've made some changes to the code in the repo, you need to first
+_stage_ these changes and then _commit_ them. To stage them, use the
+<code>git add</code> command like so:
+
+    git add .
+
+This will add _all_ of the changed files to the staging area (that's) what
+the <code> . </code> does. If you only wanted to add some of the changed
+files you could type the name of the file instead of using the <code> . </code>
+
+Now if you run <code>git status</code> again, it will show you the files
+that have changed, along with which of those are _staged_ (ready to be committed).
+
+Once you have the files staged that you want, commit them with:
+
+    git commit -m "My most recent changes"
+
+Here is what's happening. You're running the <code>git commit</code> and passing
+it one parameter and one flag (or switch). The flag is <code>-m</code> and it tells
+the command that you want to also provide a message to the commit (known as the
+commit message). Then you're typing out your commit message in quotes. It's a good
+idea to provide detailed commit messages so that when someone else works on
+this project, they have a good idea of what you changed with each commit just
+by looking at your message.
+
