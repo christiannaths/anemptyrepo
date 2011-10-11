@@ -70,3 +70,18 @@ show you something like this:
 Note the asterix indicating that you are working on the new branch and
 not the master.
 
+## Making Changes
+
+Now that you've swtiched to your new branch, you're free to make changes
+to the code. Open the repo up in a text editor. If you are using
+Sublime Text you can open it up from the command line with:
+
+  cd ~/Desktop/anemptyrepo
+  subl -n .
+
+The first command navigates to the directory files for the current
+branch of the repo are stored, and the second command opens the directory
+in a new Sublime Text window (that's what the <code>-n</code> flag does).
+Make a note of the <code> . </code> in that second line, that's telling
+the <code>subl</code> command which directory to open, the <code> . </code> means "the current directory"
+
