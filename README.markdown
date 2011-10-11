@@ -131,3 +131,23 @@ idea to provide detailed commit messages so that when someone else works on
 this project, they have a good idea of what you changed with each commit just
 by looking at your message.
 
+## Pushing Your Branch
+
+Now you're ready to push your changes, safely contained within your branch, up
+to the remote repo. Do that with:
+
+    git push origin updates20111011
+
+So here's the deal with this one: you're running the <code>git push</code> command
+and passing it two parameters. The first is the _name_ of the remote reference (which
+is essentially a convenient shortcut name that points to the URI of the remote repo, yup
+that's the same URI that you used to clone the repo in the first place). And the second
+is the name of your branch. So it breaks down like this:
+
+    git push [remote alias name] [branch name]
+
+
+Now you should be able to head over to the remote repo on Github (where you are now) and
+see your changes under the new branch. You can navigate to the new branch by clicking on the
+"Swtich Branches" button under the "Source" button from the repo's main navigation
+on it's Github home page.
