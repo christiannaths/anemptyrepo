@@ -10,7 +10,7 @@ repository is found. In this example it's on Github at <code>git@github.com:chri
 
 The second (optional) parameter is the local directory in which
 you want to store the repository. So in this case it's on your
-desktop in a folder with named with the ID of the gist: <code>~/Desktop/anemptyrepo</code>
+desktop in a folder with named with the name of this repo: <code>~/Desktop/anemptyrepo</code>
 
 so it's broken up like this:
 
