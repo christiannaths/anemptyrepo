@@ -76,8 +76,8 @@ Now that you've swtiched to your new branch, you're free to make changes
 to the code. Open the repo up in a text editor. If you are using
 Sublime Text you can open it up from the command line with:
 
-  cd ~/Desktop/anemptyrepo
-  subl -n .
+    cd ~/Desktop/anemptyrepo
+    subl -n .
 
 The first command navigates to the directory files for the current
 branch of the repo are stored, and the second command opens the directory
