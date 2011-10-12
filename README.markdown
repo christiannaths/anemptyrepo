@@ -61,7 +61,7 @@ do that with:
 
     git checkout updates20111011
 
-Now if you run <code>git branch<code> (without any parameters) agian it should
+Now if you run <code>git branch</code> (without any parameters) agian it should
 show you something like this:
 
     master
@@ -86,7 +86,7 @@ Make a note of the <code> . </code> in that second line, that's telling
 the <code>subl</code> command which directory to open, the <code> . </code> means "the current directory"
 
 
-Now edit your code how every you see fit. Add files if you need to. Try adding
+Now edit your code how ever you see fit. Add files if you need to. Try adding
 a new file and call it whatever you like. Put something in it as a placeholder text.
 
 After you've done that, type this into terminal:
